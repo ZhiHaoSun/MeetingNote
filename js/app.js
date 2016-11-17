@@ -1,6 +1,5 @@
 var myApp = angular.module('myApp',
-  ['ngRoute', 'firebase'])
-  .constant('FIREBASE_URL', 'https://meetingapp-f56b8.firebaseio.com/');
+  ['ngRoute', 'firebase']);
 
 
 myApp.run(['$rootScope', '$location',
